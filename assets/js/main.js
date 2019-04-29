@@ -147,7 +147,7 @@
 					leave: function () { $(this).addClass('inactive'); }
 				});
 
-<<<<<<< HEAD
+
 			// Contact.
 			$('#contact')
 				.scrollex({
@@ -184,82 +184,82 @@
 		breakpoints.on('>small', on);
 
 	}
-=======
+
 	// Section transitions.
-		if (browser.canUse('transition')) {
+	if (browser.canUse('transition')) {
 
-			var on = function() {
+		var on = function () {
 
-				// Galleries.
-					$('.gallery')
-						.scrollex({
-							top:		'30vh',
-							bottom:		'30vh',
-							delay:		50,
-							initialize:	function() { $(this).addClass('inactive'); },
-							terminate:	function() { $(this).removeClass('inactive'); },
-							enter:		function() { $(this).removeClass('inactive'); },
-							leave:		function() { $(this).addClass('inactive'); }
-						});
+			// Galleries.
+			$('.gallery')
+				.scrollex({
+					top: '30vh',
+					bottom: '30vh',
+					delay: 50,
+					initialize: function () { $(this).addClass('inactive'); },
+					terminate: function () { $(this).removeClass('inactive'); },
+					enter: function () { $(this).removeClass('inactive'); },
+					leave: function () { $(this).addClass('inactive'); }
+				});
 
-				// Generic sections.
-					$('.main.style1')
-						.scrollex({
-							mode:		'middle',
-							delay:		50,
-							initialize:	function() { $(this).addClass('inactive'); },
-							terminate:	function() { $(this).removeClass('inactive'); },
-							enter:		function() { $(this).removeClass('inactive'); },
-							leave:		function() { $(this).addClass('inactive'); }
-						});
+			// Generic sections.
+			$('.main.style1')
+				.scrollex({
+					mode: 'middle',
+					delay: 50,
+					initialize: function () { $(this).addClass('inactive'); },
+					terminate: function () { $(this).removeClass('inactive'); },
+					enter: function () { $(this).removeClass('inactive'); },
+					leave: function () { $(this).addClass('inactive'); }
+				});
 
-					$('.main.style2')
-						.scrollex({
-							mode:		'middle',
-							delay:		50,
-							initialize:	function() { $(this).addClass('inactive'); },
-							terminate:	function() { $(this).removeClass('inactive'); },
-							enter:		function() { $(this).removeClass('inactive'); },
-							leave:		function() { $(this).addClass('inactive'); }
-						});
+			$('.main.style2')
+				.scrollex({
+					mode: 'middle',
+					delay: 50,
+					initialize: function () { $(this).addClass('inactive'); },
+					terminate: function () { $(this).removeClass('inactive'); },
+					enter: function () { $(this).removeClass('inactive'); },
+					leave: function () { $(this).addClass('inactive'); }
+				});
 
-				// Contact.
-					$('#contact')
-						.scrollex({
-							top:		'50%',
-							delay:		50,
-							initialize:	function() { $(this).addClass('inactive'); },
-							terminate:	function() { $(this).removeClass('inactive'); },
-							enter:		function() { $(this).removeClass('inactive'); },
-							leave:		function() { $(this).addClass('inactive'); }
-						});
+			// Contact.
+			$('#contact')
+				.scrollex({
+					top: '50%',
+					delay: 50,
+					initialize: function () { $(this).addClass('inactive'); },
+					terminate: function () { $(this).removeClass('inactive'); },
+					enter: function () { $(this).removeClass('inactive'); },
+					leave: function () { $(this).addClass('inactive'); }
+				});
 
-			};
+		};
 
-			var off = function() {
+		var off = function () {
 
-				// Galleries.
-					$('.gallery')
-						.unscrollex();
+			// Galleries.
+			$('.gallery')
+				.unscrollex();
 
-				// Generic sections.
-					$('.main.style1')
-						.unscrollex();
+			// Generic sections.
+			$('.main.style1')
+				.unscrollex();
 
-					$('.main.style2')
-						.unscrollex();
+			$('.main.style2')
+				.unscrollex();
 
-				// Contact.
-					$('#contact')
-						.unscrollex();
+			// Contact.
+			$('#contact')
+				.unscrollex();
 
-			};
+		};
 
-			breakpoints.on('<=small', off);
-			breakpoints.on('>small', on);
+		breakpoints.on('<=small', off);
+		breakpoints.on('>small', on);
 
-		}
->>>>>>> 615e2ec97150630eccd5206857ffdaee51e584f8
+	}
+});
 
 	// Events.
 	var resizeTimeout, resizeScrollTimeout;
