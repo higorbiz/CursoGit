@@ -2028,7 +2028,7 @@ input, select, textarea {
 			}
 
 			.main.style3.primary {
-				background: #ffffff;
+				background: #f5f6f7;
 			}
 
 			.main.style3.secondary {
@@ -2048,11 +2048,11 @@ input, select, textarea {
 			}
 
 				.main.dark .button.style2:hover {
-					background-color: rgba(255, 255, 255, 0.125);
+					background-color: rgba(254, 254, 254, 0.125);
 				}
 
 				.main.dark .button.style2:active {
-					background-color: rgba(255, 255, 255, 0.25);
+					background-color: rgba(254, 254, 254, 0.25);
 				}
 
 				.main.dark .button.style2.down {
