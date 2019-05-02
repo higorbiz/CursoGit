@@ -2288,6 +2288,11 @@ input, select, textarea {
 
 		}
 
+		# intro p {
+			font-size: 2rem;
+			line-height: 2.5rem;
+			text-shadow: 1px 1 px 1 px #000;
+			}
 		@media screen and (max-width: 480px) {
 
 			#contact .box {
