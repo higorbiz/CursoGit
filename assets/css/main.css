@@ -2028,7 +2028,7 @@ input, select, textarea {
 			}
 
 			.main.style3.primary {
-				background: #ffffff;
+				background: #f5f6f7;
 			}
 
 			.main.style3.secondary {
@@ -2044,11 +2044,11 @@ input, select, textarea {
 			}
 
 			.main.dark .button.style2 {
-				border-color: #ffffff;
+				border-color: #f5f6f7;
 			}
 
 				.main.dark .button.style2:hover {
-					background-color: rgba(255, 255, 255, 0.125);
+					background-color: rgba(254, 254, 254, 0.124q);
 				}
 
 				.main.dark .button.style2:active {
@@ -2288,11 +2288,6 @@ input, select, textarea {
 
 		}
 
-		# intro p {
-			font-size: 2rem;
-			line-height: 2.5rem;
-			text-shadow: 1px 1 px 1 px #000;
-			}
 		@media screen and (max-width: 480px) {
 
 			#contact .box {
